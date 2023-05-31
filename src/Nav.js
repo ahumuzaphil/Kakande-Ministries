@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 export default function Nav(){
     const [bar, setBar] = useState(true)
     const [screen, setScreen] = useState(window.innerWidth)
-    const [list, setList] = useState(false)
+    const [list, setList] = useState(true)
 
     function cross(){
    setList(prevList => !prevList )
