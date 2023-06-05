@@ -6,7 +6,7 @@ import { UnorderedListOutlined,CloseOutlined } from "@ant-design/icons"
 import { useState, useEffect } from 'react';
 
 export default function Nav(){
-    const [bar, setBar] = useState(true)
+    const [bar, setBar] = useState(false)
     const [screen, setScreen] = useState(window.innerWidth)
     const [list, setList] = useState(true)
 
@@ -54,7 +54,7 @@ export default function Nav(){
         </li>
         </ul>
         )}
-        <Button  onClick={nav} className='bar' >{list ? <CloseOutlined  onClick={cross}/> : <UnorderedListOutlined onClick={cross}/>}</Button>
+        <Button  onClick={nav} className='bar' >{list ? <UnorderedListOutlined onClick={cross}/> : <CloseOutlined  onClick={cross}/>}</Button>
         
         </div>
     )
