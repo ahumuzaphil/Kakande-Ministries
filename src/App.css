@@ -434,7 +434,7 @@ transition: all 0.5s ease ;
   display: none;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 500px){
 .home_logo{
   width: 3rem;
   margin-left: 1rem;
