@@ -551,10 +551,13 @@ transition: all 0.5s ease ;
 }
 .content-proph{
   display: block;
+  margin: auto;
+  width: 50%;
 }
 .cont-info{
   width: 20rem;
-  margin-left: -7rem;
+  margin-left: -2rem;
+  /* margin-left: -7rem; */
   margin-bottom: 1rem;
 }
 .img-link{
