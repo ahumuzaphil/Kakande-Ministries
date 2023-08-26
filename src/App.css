@@ -452,7 +452,6 @@ transition: all 0.5s ease ;
 .bar{
   display: block;
   position: fixed;
- /* margin-bottom: 15rem;*/
   margin-left: 20rem;
   top: 1rem;
   
@@ -465,7 +464,7 @@ transition: all 0.5s ease ;
 .header_info{
   margin-top: -1rem;
   margin-bottom: 1.4rem;
-  margin-left: -1rem;
+  /* margin-left: -1rem; */
 }
 .pic{
   margin-left: -5rem;
@@ -561,4 +560,19 @@ transition: all 0.5s ease ;
 .img-link{
   display: none;
 }
+.bottom{
+  width: 3rem;
+  margin-left: 2rem;
 }
+
+}
+
+/*@media screen and (max-width: 500px){
+.nav{
+  top: 0;
+} 
+.home_logo{
+  width: 3rem;
+  margin-left: 1rem;
+}
+}*/
